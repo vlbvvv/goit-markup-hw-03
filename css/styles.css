@@ -16,6 +16,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+img {
+    display: block
+}
 .container {
     width: 1158px;
     margin-left: auto;
@@ -33,6 +36,31 @@ ol {
     list-style-type: none;
 }
 
+.site-header {
+    border-bottom: 1px solid #e7e9fe;
+}
+
+.container-header {
+    align-items: center;
+    display: flex;
+}
+.main-navigation {
+    align-items: center;
+    display: flex;
+}
+.ul-navigation {
+    display: flex;
+    gap: 40px;
+}
+.li-navigation1 {
+    margin-right: 40px
+}
+.li-navigation2 {
+    margin-right: 40px
+}
+.li-navigation3 {
+margin-right: 0px
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -42,6 +70,7 @@ ol {
     text-decoration: none;
     letter-spacing: 0.03em;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 
 .logo span {
@@ -54,6 +83,8 @@ ol {
     letter-spacing: 0.02em;
     line-height: 1.5;
     text-decoration: none;
+    padding: 24px 0;
+
 }
 
 .navigation:hover,
@@ -62,27 +93,39 @@ ol {
     outline: none;
 }
 
-.adress-nav {
+.address-nav {
     font-style: normal;
 }
-.adress-mailtel {
+.address-mailtel {
     color: #434455;
     letter-spacing: 0.02em;
     line-height: 1.5;
     text-decoration: none;
 }
 
-.adress-mailtel:hover,
-.adress-mailtel:focus {
+.address-mailtel:hover,
+.address-mailtel:focus {
     color: #404bbf;
     outline: none;
 }
 
+.ul-address {
+    display: flex;
+    gap: 40px;
+}
+
+.li-address1 {
+    margin-right: 40px;
+}
+.li-address2 {
+    margin-right: 0px;
+}
 
 
 .hero {
     background-color: #2E2F42;
     text-align: center;
+    padding: 188px 0;
 }
 .main-title {
     color: #ffffff;
@@ -90,6 +133,7 @@ ol {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 .main-button {
     cursor: pointer;
@@ -100,25 +144,46 @@ ol {
     background-color: #4D5AE5;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .main-button:hover,
 .main-button:focus {
     background-color: #404BBF
 }
-.advantage-main {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    text-transform: capitalize
+.advantage {
+    padding: 120px 0;
 }
+.advantage-main {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.ul-advantage {
+    display: flex;
+    gap: 24px;
+}
+.li-advantage {
+    width: calc((100% - 72px) / 4);
+}
+
 .advantage-titles {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .advantage-paragraphs {
     font-size: 16px;
@@ -127,6 +192,7 @@ ol {
 }
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 
@@ -137,10 +203,26 @@ ol {
     font-weight: 700;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
-.team-list {
-    background-color: #FFFFFF
+.ul-team {
+    display: flex;
+    gap: 24px;
+}
+.ul-team1 {
+    background-color: #FFFFFF;
+    margin-right: 24px;
+}
+.ul-team2 {
+    margin-right: 24px;
+}
+
+.ul-team3 {
+    margin-right: 24px;
+}
+.ul-team4 {
+    margin-right: 0px;
 }
 .team-name {
     font-weight: 500;
