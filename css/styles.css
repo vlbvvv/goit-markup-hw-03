@@ -37,12 +37,15 @@ ol {
 }
 
 .site-header {
-    border-bottom: 1px solid #e7e9fe;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header {
     align-items: center;
     display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .main-navigation {
     align-items: center;
@@ -51,6 +54,7 @@ ol {
 .ul-navigation {
     display: flex;
     gap: 40px;
+    margin-right: 40px
 }
 .li-navigation1 {
     margin-right: 40px
