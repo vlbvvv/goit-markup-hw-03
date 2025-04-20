@@ -25,6 +25,7 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  flex-direction: column;
 }
 .section {
   padding-top: 120px;
@@ -241,7 +242,7 @@ ol {
   letter-spacing: 0.02em;
 }
 .portfolio {
-  padding: 120px 0;
+  padding: 120px 0 120px 0;
 }
 .portfolio-title {
   font-size: 36px;
@@ -284,6 +285,13 @@ ol {
 .footer-content {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+.container-footer {
+  align-items: center;
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
