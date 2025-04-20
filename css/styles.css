@@ -215,6 +215,7 @@ ol {
   margin-right: 24px;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .div-team {
   padding: 32px 0;
@@ -239,6 +240,9 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.portfolio {
+  padding: 120px 0;
+}
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -247,6 +251,22 @@ ol {
   color: #2e2f42;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.ul-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-list {
+  width: calc((100% - 48px) / 3);
+}
+.div-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .portfolio-name {
   font-weight: 500;
@@ -263,6 +283,7 @@ ol {
 
 .footer-content {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -273,6 +294,8 @@ ol {
   text-decoration: none;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-span {
