@@ -212,7 +212,6 @@ ol {
   gap: 24px;
 }
 .li-team {
-  margin-right: 24px;
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 3 * 24px) / 4);
   background-color: #ffffff;
@@ -243,6 +242,9 @@ ol {
 .portfolio {
   padding: 120px 0 120px 0;
 }
+.cent {
+  flex-direction: column;
+}
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -260,7 +262,7 @@ ol {
   row-gap: 48px;
 }
 .portfolio-list {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .div-portfolio {
   padding: 32px 16px;
