@@ -25,7 +25,6 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  flex-direction: column;
 }
 .section {
   padding-top: 120px;
@@ -214,9 +213,9 @@ ol {
 }
 .li-team {
   margin-right: 24px;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 3 * 24px) / 4);
+  background-color: #ffffff;
 }
 .div-team {
   padding: 32px 0;
@@ -267,7 +266,6 @@ ol {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .portfolio-name {
   font-weight: 500;
@@ -275,6 +273,7 @@ ol {
   color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .portfolio-paragraphs {
   font-size: 16px;
@@ -308,6 +307,7 @@ ol {
 
 .footer-logo-span {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .footer-paragraph {
