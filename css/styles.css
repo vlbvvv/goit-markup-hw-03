@@ -96,6 +96,11 @@ ul {
   gap: 40px;
   align-items: center;
 }
+.nav-list-a:hover,
+.nav-list-a:focus {
+  color: #404bbf;
+  outline: none;
+}
 
 .nav-list-a {
   padding: 24px 0;
@@ -155,7 +160,10 @@ ul {
   color: var(--white);
   margin: auto;
 }
-
+.solutions-button:hover,
+.solutions-button:focus {
+  background-color: #404bbf;
+}
 .advantage {
   padding: 120px 0;
 }
@@ -166,7 +174,6 @@ ul {
   gap: 24px;
   align-items: center;
 }
-
 .third-header {
   font-family: var(--font-family);
   font-weight: 500;
